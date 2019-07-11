@@ -10,6 +10,7 @@ public class DockerEurekaServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DockerEurekaServiceApplication.class, args);
+        System.out.println("注册中心服务已启动！");
     }
 
 }
